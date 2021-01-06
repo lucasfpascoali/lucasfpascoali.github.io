@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #fefefe;
+    font-family: "Roboto", sans-serif;
+}
+
+/* INICIO NAVBAR */
+nav#barraMenu {
+    border-bottom: 5px solid #979a9d;
+}
+/* FIM NAVBAR */
+
+/* INICIO CARDS */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background-color: #343940;
+    box-shadow: 0px 2px 23px #26395338;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.topCard {
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.secondText {
+    color: #979a9d;
+}
+
+.cardFoto {
+    background: url("../img/profilepic-rdz.png") center/cover;
+    width: 100%;
+    height: 380px;
+}
+
+.bottomCard {
+    padding: 20px;
+}
+
+h2#sobre {
+    text-align: center;
+}
+
+.informacoes {
+    width: 300px;
+    height: 444px;
+}
+/* FIM CARDS */
