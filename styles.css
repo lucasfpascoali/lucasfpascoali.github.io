@@ -15,6 +15,7 @@ body {
 nav#barraMenu {
     border-bottom: 5px solid #979a9d;
 }
+
 /* FIM NAVBAR */
 
 /* INICIO CARDS */
@@ -24,10 +25,14 @@ nav#barraMenu {
     align-items: center;
     align-content: space-between;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     color: white;
-    flex-wrap: wrap;
+}
 
+.aumentar {
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
 }
 
 .card {
@@ -67,3 +72,60 @@ h2#sobre {
     height: 444px;
 }
 /* FIM CARDS */
+
+/* RESPONSIVIDADE MOBILE */
+@media screen and (max-width: 1000px) {
+    .navbar {
+        min-height: 80px;
+    }
+    
+    .navbar-brand {
+        padding: 0 15px;
+        height: 80px;
+        line-height: 80px;
+        font-size: xx-large;
+    }
+    
+    .navbar-toggler {
+        padding: 9px 10px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .aumentar {
+        width: 80vw;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .topCard {
+        height: 150px;
+    }
+
+    .cTitle {
+        font-size: 48px;
+    }
+
+    .secondText {
+        font-size: 32px;
+    }
+    
+    .cardFoto {
+        height: 709.74px;
+    }
+
+    div#topSobre {
+        height: 899.73px;
+    }
+
+    .informacoes {
+        text-align: left;
+        width: 100%;
+        height: 100%;
+        font-size: 32px;
+    }
+
+
+}
